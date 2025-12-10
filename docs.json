@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1a59bd",
+    "light": "#2e6ac9",
+    "dark": "#1a59bd"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,35 +14,20 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "spartan/installing",
+              "spartan/updating"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Services",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "services/pterodactyl",
+              "services/virtfusion",
+              "services/hestiacp",
+              "services/licensing"
+
             ]
           }
         ]
@@ -72,13 +57,13 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://docs.dezerx.com",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Discord",
+          "href": "https://discord.gg/jKFGDSu4K4",
+          "icon": "discord"
         }
       ]
     }

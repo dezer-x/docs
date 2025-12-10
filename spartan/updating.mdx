@@ -1,0 +1,40 @@
+---
+title: "Updating"
+description: "To update DezerX Spartan to the latest version, run the following command"
+---
+
+```bash
+sudo bash -c "$(curl -fsSL https://github.com/dezerx-spartan/Spartan-Installer/releases/latest/download/spartan_installer.sh)" -- --non-interactive --update --app-dir="/var/www/directorynamehere"
+```
+
+<Note> Replace `directorynamehere` with your actual installation directory name. </Note>
+
+## Command Breakdown
+
+| Parameter | Description |
+|-----------|-------------|
+| `--non-interactive` | Runs the update without prompting for user input |
+| `--update` | Specifies that this is an update operation |
+| `--app-dir` | Path to your DezerX Spartan installation directory |
+
+## Common Installation Directories
+
+If you're unsure of your installation directory, common path include:
+- `/var/www/spartan`
+
+You can check your installation directory by running:
+```bash
+ls /var/www/
+```
+
+## Example
+
+If your installation is in `/var/www/spartan`, your update command would be:
+
+```bash
+sudo bash -c "$(curl -fsSL https://github.com/dezerx-spartan/Spartan-Installer/releases/latest/download/spartan_installer.sh)" -- --non-interactive --update --app-dir="/var/www/spartan"
+```
+
+## Before You Update
+
+<Note> Always backup your data before performing an update to prevent potential data loss, Our update script automatically does a backup and restores ur data incase of an issue, but better be safe then sorry</Note>
